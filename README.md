@@ -6,6 +6,8 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
 
+<hr>
+
 When we load the dataset, we find that it has 41 columns or features. When we try to predict the accuracy of any model, it is very important that we pick the right features. Poor feature selection can lead to a lower prediction accuracy of our model.
 
 So now the challenge is to find which features are useful and which are not.
@@ -21,7 +23,7 @@ Once the scaling is done, we calculate the accuracy of our model.
 	Training Data Score: 85.50 %
 	Testing Data Score: 86.21 %
 
-#### Selecting Features
+### Selecting Features
 
 Here, I used SelectKBest package from sklearn. Once executed, we get a list of features and their scores. We can then sort them in descending order and select the ones we want. I selected top 10. Now we should scale the selected features again before we train and test our model.
 
