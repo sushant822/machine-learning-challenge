@@ -10,7 +10,7 @@ When we load the dataset, we find that it has 41 columns or features. When we tr
 
 So now the challenge is to find which features are useful and which are not.
 
-![01-data.jpg](Images/01-data.jpg)
+![01-data.jpg](Images/01-data.png)
 
 As we can see, the values in our features ranges from very high to very low. Since features have different scales, there is a chance that higher weightage is given to features with higher magnitude. This will impact the performance of the machine learning algorithm and we do not want our algorithm to be biased towards one feature. The first thing that we need to do is scale the features.
 
