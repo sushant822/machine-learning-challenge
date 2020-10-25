@@ -8,7 +8,7 @@ To help process this data, you will create machine learning models capable of cl
 
 <hr>
 
-When we load the dataset, we find that it has 41 columns or features. When we try to predict the accuracy of any model, it is very important that we pick the right features. Poor feature selection can lead to a lower prediction accuracy of our model.
+When we load the dataset, we find that it has **41 columns or features**. When we try to predict the accuracy of any model, it is very important that we pick the right features. Poor feature selection can lead to a lower prediction accuracy of our model.
 
 So now the challenge is to find which features are useful and which are not.
 
@@ -27,12 +27,12 @@ Once the scaling is done, we calculate the accuracy of our model.
 
 Here, I used SelectKBest package from sklearn. Once executed, we get a list of features and their scores. We can then sort them in descending order and select the ones we want. I selected top 10. Now we should scale the selected features again before we train and test our model.
 
-I did a test here by training and testing the model without scaling. Here are the results:
+I did a test here by training and testing the model **without scaling**. Here are the results:
 
 	Train Data Score: 65.95%
 	Test Data Score: 64.13%
 
-And here are results after I scaled the features:
+And here are results after I **scaled** the features:
 
 	Train Data Score: 84.59%
 	Test Data Score: 84.38%
@@ -50,4 +50,4 @@ After tuning the model, our testing accuracy improved:
 	Testing Data Score: 90.046 %
 
 
-For this dataset, it is clear that Random Forest is the better approach.
+For this dataset, it is clear that **Random Forest** is the better approach.
