@@ -27,7 +27,7 @@ Once the scaling is done, we calculate the accuracy of our model.
 
 ### Selecting Features
 
-Here, I used SelectKBest package from sklearn. Once executed, we get a list of features and their scores. We can then sort them in descending order and select the ones we want. I selected top 10. Now we should scale the selected features again before we train and test our model.
+Here, I used SelectKBest package from sklearn. Once executed, we get a list of features and their scores. We can then sort them in descending order and select the ones we want. I selected top 20. Now we should scale the selected features again before we train and test our model.
 
 I did a test here by training and testing the model **without scaling**. Here are the results:
 
